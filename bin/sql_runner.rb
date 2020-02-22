@@ -19,4 +19,5 @@ class SQLRunner
     sql = File.read('lib/data.sql')
     @db.execute_batch(sql)
   end
+  
 end
